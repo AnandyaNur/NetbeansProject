@@ -1,0 +1,21 @@
+
+package array1d;
+
+import java.util.Scanner;
+
+public class JumlahnRata {
+public static void main(String[] args) {
+    
+    Scanner input = new Scanner(System.in);
+    
+    int[] nilai = {80, 75, 90, 85, 70};
+    int total = 0;
+    for (int i = 0; i < nilai.length; i++) {
+    total += nilai[i];
+}
+    double rataRata = (double) total / nilai.length;
+    
+    System.out.println("Total = " + total);
+    System.out.println("Rata-rata = "+ rataRata);
+}
+}
